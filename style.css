@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Roboto;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.3rem 6rem;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.1rem;
+}
+
+nav h1{
+    font-size: 2.4rem;
+}
+
+nav h1 i{
+    display: inline-block;
+    rotate: 45deg;
+    font-size: 2.65rem;
+    margin-right: 0.5rem;
+}
+
+nav h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+nav button {
+    padding: 0.8rem 1.4rem;
+    font-size: 1.3rem;
+    border-radius: 0.9rem;
+    border: 2px solid black;
+    font-weight: 600;
+}
+
+.center{
+    padding: 4.5rem 6rem;
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.center-part1{
+    height: 100%;
+    width: 40%;
+}
+
+.center-part1 h1{
+    font-size:3.8rem ;
+    font-family: "Ancizar Serif", serif;
+}
+
+.center-part1 p{
+    margin-top: 2.2rem;
+    font-size: 1.1rem;
+}
+
+.center-part1 button{
+    background-color: black;
+    color: white;
+    border-radius: 1.5rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.15rem;
+    margin-top: 2.2rem;
+    border: none;
+}
+
+.center-part2{
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+
+.center-part2 img{
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
